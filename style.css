@@ -137,6 +137,11 @@ li:hover {
   width: 100%;
 }
 
+.nft-list {
+  list-style: none;
+  cursor: all-scroll;
+}
+
 .card-btn {
   width: 100%;
   bottom: 0;
@@ -186,6 +191,10 @@ footer {
     display: block;
   }
 
+  .nft-list {
+    font-size: 1.5rem;
+  }
+
   h2 {
     font-size: 2rem;
   }
@@ -232,6 +241,11 @@ footer {
 
   .card-btn {
     width: 50%;
+  }
+
+  .flex {
+    display: flex;
+    align-items: center;
   }
 
   /* NAVIGATION */
