@@ -37,7 +37,7 @@ h1 {
 p {
   padding: 20px 0;
   line-height: 1.7;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 main {
@@ -117,7 +117,7 @@ li:hover {
   color: #333;
   /* background-color: #fff; */
   background-color: #e8eef3;
-  padding: 70px 20px;
+  padding: 100px 20px;
 }
 
 .sub-heading-1 {
