@@ -108,6 +108,10 @@ li:hover {
   color: var(--hero-color);
 }
 
+.intro-secondary {
+  display: none;
+}
+
 /* ****************** */
 .bgc {
   color: #333;
@@ -146,15 +150,6 @@ li:hover {
   border-bottom-right-radius: 10px;
 }
 
-.icon-play {
-  position: absolute;
-  top: 50%;
-  right: 50%;
-
-  transform: translate(-50%, -50%);
-  /* border-radius: 50%; */
-}
-
 /* ******************** */
 .twitter-url {
   padding: 10px 0;
@@ -174,7 +169,83 @@ li:hover {
 }
 
 /* ********************* */
+
+/* ********************* */
 /* FOOTER */
 footer {
   padding: 50px 20px;
+}
+
+@media screen and (min-width: 700px) {
+  .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  /* ******************** */
+  .main-heading {
+    width: 90%;
+  }
+
+  .center {
+    display: block;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h1 {
+    font-size: 4rem;
+    /* width: 50%; */
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 100px 50px;
+  }
+
+  .hero-bgc {
+    height: 100vh;
+
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.582)),
+      url(img/pepe-frog.jpg);
+    background-size: cover;
+    color: #fff;
+  }
+
+  .hero-color {
+    color: var(--btn-color);
+  }
+
+  /* TOOL */
+
+  .tools-container {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .card img {
+    width: 50%;
+  }
+
+  .card-btn {
+    width: 50%;
+  }
+
+  /* NAVIGATION */
+  .tabs {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
