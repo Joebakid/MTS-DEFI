@@ -176,15 +176,6 @@ footer {
   padding: 50px 20px;
 }
 
-@media screen and (min-width: 700px) {
-  .center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-  }
-}
-
 @media screen and (min-width: 1000px) {
   /* ******************** */
   .main-heading {
