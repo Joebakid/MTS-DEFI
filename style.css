@@ -209,12 +209,12 @@ footer {
   }
 
   .container {
-    width: 100%;
+    width: 70%;
     margin: 0 auto;
     padding: 100px 50px;
   }
 
-  .hero-bgc {
+  /* .hero-bgc {
     height: 100vh;
 
     position: relative;
@@ -222,7 +222,7 @@ footer {
       url(img/pepe-frog.jpg);
     background-size: cover;
     color: #fff;
-  }
+  } */
 
   .hero-color {
     color: var(--btn-color);
@@ -246,6 +246,13 @@ footer {
   .flex {
     display: flex;
     align-items: center;
+  }
+
+  .bgc {
+    color: #333;
+    /* background-color: #fff; */
+    background-color: #e8eef3;
+    padding: 100px 260px;
   }
 
   /* NAVIGATION */
